@@ -1,0 +1,36 @@
+# Challenge submission
+
+> Copy this file to `LOG.md` and complete it before you submit.
+
+**Candidate name:**  
+**Date completed:**
+
+---
+
+## Part 1 — Google Tag Manager
+
+**Web container ID:**  
+**GA4 measurement ID:**  
+**Google Sheet is not part of this section.**
+
+### Email to the Director of Analytics
+
+Paste the English email from Exercise 3.
+
+### How you validated
+
+What you checked in GTM Preview and GA4 DebugView for add to cart and the newsletter.
+
+---
+
+## Part 2 — Apps Script
+
+**Google Sheet URL:**  
+
+### Email to the client developer
+
+Paste the email from Exercise 4.
+
+### Decisions worth knowing
+
+Short notes on how the hash count works and how aliases stay unique.

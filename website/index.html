@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pipo Toys</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="#home">Pipo <span>Toys</span></a>
+    <nav class="nav">
+      <a href="#shop">Shop</a>
+      <a href="#workshop">The workshop</a>
+      <span class="cart-pill">Cart <strong data-cart-count>0</strong></span>
+    </nav>
+  </header>
+
+  <div data-view="home">
+    <main class="page">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Beach department</p>
+          <h1>Toys for people who still dig holes.</h1>
+          <p class="lede">Shovels, boats, and sandbox sets. The shop records what you add. The workshop footer is where the newsletter lives.</p>
+          <a class="button" href="#shop">Browse the shop</a>
+        </div>
+        <aside class="hero-card">
+          <strong>6</strong>
+          <p>products on the floor today, from a $7 beach boat to equipment that needs a permit.</p>
+        </aside>
+      </section>
+
+      <section class="feature-grid">
+        <a class="feature-card" href="#shop">
+          <div class="feature-swatch swatch-sea"></div>
+          <p class="eyebrow">Children's Stuff</p>
+          <h2>Children's Beach Boat</h2>
+          <p class="price">$7.00</p>
+        </a>
+        <a class="feature-card" href="#shop">
+          <div class="feature-swatch swatch-sand"></div>
+          <p class="eyebrow">Children's Stuff</p>
+          <h2>Children's Shovel</h2>
+          <p class="price">$5.95</p>
+        </a>
+        <a class="feature-card" href="#shop">
+          <div class="feature-swatch swatch-navy"></div>
+          <p class="eyebrow">Adult Stuff</p>
+          <h2>Adult Beach Boat</h2>
+          <p class="price">$40000.00</p>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="fine-print">Pipo Toys &amp; Random Stuff. Newsletter signup is on the workshop page.</p>
+    </footer>
+  </div>
+
+  <div data-outlet hidden></div>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/shop.js"></script>
+  <script src="js/newsletter.js"></script>
+  <script src="js/pages.js"></script>
+</body>
+</html>

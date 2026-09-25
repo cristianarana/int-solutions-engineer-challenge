@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The workshop · Pipo Toys</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html#home">Pipo <span>Toys</span></a>
+    <nav class="nav">
+      <a href="index.html#shop">Shop</a>
+      <a href="index.html#workshop">The workshop</a>
+      <span class="cart-pill">Cart <strong data-cart-count>0</strong></span>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="story">
+      <div>
+        <p class="eyebrow">The workshop</p>
+        <h1>We still believe in sand.</h1>
+        <p class="lede">Pipo started as a drawer of mismatched beach toys and never really grew out of it. The catalog is short on purpose. If a thing is not fun to carry to the water, it does not ship.</p>
+      </div>
+      <article class="story-card">
+        <p class="eyebrow">From the floor</p>
+        <p>There is no thank-you page after the newsletter. A click on the button is not proof that someone subscribed. The page records the result of the attempt in <code>window.dataLayer</code>.</p>
+        <p>Try an empty field, a broken address, and a real email. Then look at what changed.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <p class="eyebrow">Pipo Toys</p>
+        <p>Warehouse hours are whenever someone is already at the beach. Returns accepted if the shovel still has both sides.</p>
+      </div>
+      <section class="newsletter">
+        <p class="eyebrow">Footer</p>
+        <h2>Newsletter</h2>
+        <p>Product drops, not a weekly essay. We only record a subscription when the address is usable.</p>
+        <form data-newsletter novalidate>
+          <input data-newsletter-email type="email" name="email" placeholder="you@example.com" autocomplete="email" aria-label="Email address">
+          <button type="submit">Subscribe</button>
+          <p class="form-message warning" data-message="warning" hidden></p>
+          <p class="form-message success" data-message="success" hidden>You're on the list.</p>
+        </form>
+      </section>
+    </div>
+    <p class="fine-print">The form code is in <code>js/newsletter.js</code>.</p>
+  </footer>
+
+  <script src="js/cart.js"></script>
+  <script src="js/newsletter.js"></script>
+</body>
+</html>
